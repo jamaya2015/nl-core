@@ -1,3 +1,4 @@
 # nl-core
 Series of tuts about node
-getting started
+ 1-) Getting started
+ 2-) Core Features
