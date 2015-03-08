@@ -1,3 +1,6 @@
+var fs = require('fs');
+var path = require('path');
+
 module.exports = function( dirname, fext,callback){
 var filArray=[];
 
@@ -10,7 +13,7 @@ fs.readdir(dirname , function (err, list) {
          if(err){
            callback(err);
          }else{
-           callback(fillArray);
+           callback(filArray);
          }
        })
 }
